@@ -6,6 +6,24 @@ An interactive full-stack grid analytics dashboard designed to simulate and visu
 
 This project serves as the foundational data generation pipeline and operational visualization layer for the Undergraduate Research Internship Scheme (URIS) at The Hong Kong Polytechnic University (PolyU), developed in alignment with the Research Centre for Grid Modernisation (RCGM).
 
+My current URIS project has 3 main objectives:
+
+  - Objective 1: To develop and train a Deep Learning model for Dynamic State Estimation (DSE) using
+  time-series simulated operational data from a representative distribution feeder (IEEE 33-bus system).
+  The model will learn to forecast future voltage profiles from historical measurement sequences,
+  establishing baseline forecasting accuracy against a persistence model and a static DNN benchmark.
+
+  - Objective 2: To evaluate the robustness of the proposed DSE model under challenging dynamic grid
+    scenarios, specifically measurement loss and bad data injection occurring during time-varying load ramps
+    (e.g., EV charging peaks) . The analysis will quantify the model's resilience in low-observability
+    conditions where traditional static WLS fails and where forecasting errors could lead to undetected
+    violations.
+
+  - Objective 3: To extend the dynamic state estimation framework to predictive situational awareness by
+    developing a visualization module that interprets forecasted voltage trajectories, identifies impending
+    constraint violations, and issues early warnings (e.g., undervoltage expected in 5 minutes during EV
+    peak). This demonstrates practical applicability for proactive real-world grid monitoring.
+
 ## Live Demo
 Explore the production dashboard here: [Insert Your Live Vercel/Netlify Link Here]
 
