@@ -24,6 +24,8 @@ My current URIS project has 3 main objectives:
     constraint violations, and issues early warnings (e.g., undervoltage expected in 5 minutes during EV
     peak). This demonstrates practical applicability for proactive real-world grid monitoring.
 
+In this precursor, I will be satisfying ____ of the project
+
 ## Live Demo
 Explore the production dashboard here: [Insert Your Live Vercel/Netlify Link Here]
 
